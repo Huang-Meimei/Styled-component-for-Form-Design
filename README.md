@@ -1,3 +1,9 @@
+## What was implemented
+
+A bunch of form elements and two suits of theme design were created.
+A designed StyledBreadCrumb.tsx component was created to generate the specific panel,
+which is a composition of form elements and can be triggered to switch between theme suits. 
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

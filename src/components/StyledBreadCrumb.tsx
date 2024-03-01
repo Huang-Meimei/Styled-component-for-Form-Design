@@ -183,7 +183,6 @@ const StyledText = styled.span.attrs<StyledTextProps>(props=>({
     }
 `
 
-
 const StyledSeparator = styled.img.attrs<StyledSeparatorProps>(props=>({
     src:props.separatorIcon,
 }))`
@@ -356,7 +355,7 @@ export default function StyledBreadCrumb({
                         </StyledFormElementBinder>
                         <StyledFormElementBinder transparent to='even' size="b">
                             <StyledIcon size="s" src={Icon1} />
-                            <StyledInput borderLeft></StyledInput>
+                            <StyledInput size="m" borderLeft></StyledInput>
                             <StyledText transparent padding>ATOM≈$1,013</StyledText>
                         </StyledFormElementBinder>
                         
